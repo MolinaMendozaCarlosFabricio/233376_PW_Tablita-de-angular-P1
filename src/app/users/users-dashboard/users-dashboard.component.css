@@ -1,0 +1,60 @@
+#allTable {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 5px;
+    box-shadow: 5px 5px rgba(0,0,0,0.5);
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: "Roboto", sans-serif;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#table-headers{
+    background-color: rgb(213, 213, 213);
+}
+
+.data-users {
+    background-color: white;
+}
+
+.data-users td {
+    border-bottom: 1px solid rgb(157, 157, 157);
+    border-right: 1px solid rgb(157, 157, 157);
+    padding: 3vh;
+}
+
+.data-users tr:last-child td {
+    border-bottom: none;
+}
+
+.data-users td:last-child {
+    border-right: none;
+}
+
+#allTable tr:first-child td:first-child {
+    border-top-left-radius: 5px;
+}
+
+#allTable tr:first-child td:last-child {
+    border-top-right-radius: 5px;
+}
+
+#allTable tr:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+#allTable tr:last-child td:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+tr:hover{
+    background-color: rgb(213, 213, 213);
+}
+
+.h1-titel-form{
+    position: relative;
+    left: 10%;
+}
